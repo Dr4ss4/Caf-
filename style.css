@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #b18b77;
+}
+
+.cabeçalho-inicio {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navegar-itens-cabeçalho {
+    list-style: none;
+}
+
+.navegar-itens-cabeçalho li {
+    display: inline;
+}
+
+.navegar-itens-cabeçalho li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 120%;
+    padding: 2px 20px;
+}
+
+.navegar-itens-cabeçalho li:hover a {
+    color: #eec299;
+}
+
+.imagem-cabeçalho {
+    width: 10%;
+    height: auto;
+}
+
+.titulo-cafe-imperial{
+    font-family: 'Poiret One', sans-serif;
+    color: #fff;
+}
+
+main{
+    height: 100vh;
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+    position: relative; 
+}
+
+.video-main {
+    width: 100%;
+    height: auto;
+}
+
+.section-nossa-historia{
+    width: 100%;
+    height: 100%;
+    background-color: #8d5a49;
+    padding: 7%;
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+}
+
+.nossa-historia{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.img-nossa-historia{
+    width: 600px;
+    height: 350px;
+}
+
+.video-nossa-historia video{
+    width: 60%;
+    border-radius: 10%;
+}
+
+.title-nossa-historia{
+    font-family: 'Poiret One', sans-serif;
+    font-size: 300%;
+    margin-bottom: 3%;
+    color: #fff;
+}
+
+.paragrafo-nossa-historia{
+    color: #fff;
+    text-align: justify;
+}
+
+.section-nossos-cafes{
+    display: flex;
+    flex-direction: column;
+    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
+    padding: 7%;
+}
+
+.titulo-nossos-cafes{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1%;
+    
+    font-family: 'Poiret One', sans-serif;
+    color: #fff;
+    font-size: 300%;
+}
+
+.paragrafo-nossos-cafes{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3%;
+
+    font-family: 'Poiret One', sans-serif;
+    color: #fff;
+    font-size: 150%;
+}
+
+.paragrafo-card{
+    color: #fff;
+    margin: 5%;
+}
+
+.carrossel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: #8d5a49;
+    clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.5%;
+}
+
+footer h1{
+    font-size: 100%;
+    color: #fff;
+}
